@@ -5,5 +5,5 @@
 # Joke displays a joke.
 # Fact displays a fact.
 # Create an instance of the class and call all three methods on it.
-array = [1, 2, 3]
-array.each {|number| number += 1}
+class Person
+  

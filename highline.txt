@@ -1,0 +1,14 @@
+# Create a new file called highline.txt to work on this exercise.
+# Install highline and explore its documentation.
+# Write three comments on what it does.
+# Write three comments on how to use it.
+challenges(master)$ irb
+2.1.2 :001 > require 'highline'
+ => true
+so, yea, highline was designed to implement input and output with low-level methods like gets and puts.
+did i forget to mention it generates requesting data from the user without actually having to check the code for
+errors. highline simplifies common console interaction.
+
+gem install highline
+require 'highline' in irb and wait for prompt to return true.
+if you do highline import, then it give you the global methods to make it easy to use from the top level. 
